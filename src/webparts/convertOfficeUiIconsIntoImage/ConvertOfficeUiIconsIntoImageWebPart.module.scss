@@ -1,0 +1,78 @@
+//@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+@import 'https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css';
+
+.convertOfficeUiIconsIntoImage {
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  .ms-Grid {
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1280px;
+  }
+  
+  .ms-Grid-row {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  
+  .ms-Grid-col {
+    padding: 0 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  input {
+    border: none;
+    display: block;
+    margin-bottom: 2em;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+    padding: 0;
+    width: auto;
+  }
+  
+  input[type="button"],
+  input[type="submit"],
+  .ms-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.75em 2em;
+    text-decoration: none;
+    width: auto;
+  }
+  input[type="button"] .ms-Icon,
+  input[type="submit"] .ms-Icon,
+  .ms-button .ms-Icon {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  
+  .canvas-container {
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 10px;
+    width: auto;
+  }
+  
+  #canvas {
+    color: black;
+    font-family: FabricMDL2Icons;
+  }
+  
+}

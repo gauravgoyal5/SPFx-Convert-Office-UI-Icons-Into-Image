@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "convert-office-ui-icons-into-image-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/convertOfficeUiIconsIntoImage/ConvertOfficeUiIconsIntoImageWebPart.js",
+          "manifest": "./src/webparts/convertOfficeUiIconsIntoImage/ConvertOfficeUiIconsIntoImageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-3.1.0.min.js",
+    "polyfill": {
+      "path": "https://cdn.polyfill.io/v2/polyfill.min.js",
+      "globalName": "polyfill"
+    }
+  },
+  "localizedResources": {
+    "ConvertOfficeUiIconsIntoImageWebPartStrings": "lib/webparts/convertOfficeUiIconsIntoImage/loc/{locale}.js"
+  }
+}

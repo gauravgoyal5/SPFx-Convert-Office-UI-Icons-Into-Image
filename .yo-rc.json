@@ -1,0 +1,24 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "none.plus",
+    "pnp-libraries": [
+      "rush@2.9"
+    ],
+    "pnp-ci": [],
+    "pnp-vetting": [],
+    "spfxenv": "spo",
+    "pnp-testing": []
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "spo",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "version": "1.8.2",
+    "libraryName": "convert-office-ui-icons-into-image",
+    "libraryId": "7954343e-30fb-4eee-8dfc-795f2f8a7ac3",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

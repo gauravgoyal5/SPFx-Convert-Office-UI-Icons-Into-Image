@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "convert-office-ui-icons-into-image-client-side-solution",
+    "id": "7954343e-30fb-4eee-8dfc-795f2f8a7ac3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/convert-office-ui-icons-into-image.sppkg"
+  }
+}
