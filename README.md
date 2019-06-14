@@ -1,6 +1,6 @@
 ## convert-office-ui-icons-into-image
 
-This is where you include your WebPart documentation.
+Now you can convert an office ui icons into an image. I have created SPFx web part
 
 ### Building the code
 
